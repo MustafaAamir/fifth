@@ -1,5 +1,0 @@
-open Fifth
-
-let () =
-    let program = [ DeFun ("print", [ Dup; Dump ]); Push 2; CallFun "print"; Halt ] in
-  Fifth.simulate program 0
